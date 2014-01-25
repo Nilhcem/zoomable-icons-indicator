@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff303030"
+    android:orientation="vertical">
+
+    <!-- ViewPagerIndicator -->
+    <com.nilhcem.iconsindicator.viewpager.indicator.ZoomableIconsIndicator
+        android:id="@+id/indicator"
+        android:layout_marginTop="14dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <!-- ViewPager -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:paddingTop="10dp"
+        android:background="#ff000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
