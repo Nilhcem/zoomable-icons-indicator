@@ -9,8 +9,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import com.nilhcem.iconsindicator.R;
 import com.nineoldandroids.view.ViewHelper;
-import com.viewpagerindicator.IconPagerAdapter;
-import com.viewpagerindicator.PageIndicator;
 
 import static android.support.v4.view.ViewPager.OnPageChangeListener;
 

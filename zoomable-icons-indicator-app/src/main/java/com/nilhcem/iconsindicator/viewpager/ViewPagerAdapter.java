@@ -4,7 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import com.nilhcem.iconsindicator.R;
-import com.viewpagerindicator.IconPagerAdapter;
+import com.nilhcem.iconsindicator.viewpager.indicator.IconPagerAdapter;
 
 public class ViewPagerAdapter extends FragmentPagerAdapter implements IconPagerAdapter {
 

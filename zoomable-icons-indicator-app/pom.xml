@@ -51,12 +51,6 @@
             <groupId>com.nineoldandroids</groupId>
             <artifactId>library</artifactId>
         </dependency>
-
-        <dependency>
-            <groupId>com.viewpagerindicator</groupId>
-            <artifactId>library</artifactId>
-            <type>apklib</type>
-        </dependency>
     </dependencies>
 
     <build>
