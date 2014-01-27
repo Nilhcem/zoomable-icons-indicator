@@ -110,7 +110,6 @@ public class ZoomableIconsIndicator extends LinearLayout implements PageIndicato
 
         for (int i = 0; i < count; i++) {
             ImageView view = new ImageView(getContext());
-            view.setTag(i);
             view.setImageResource(iconAdapter.getIconResId(i));
             view.setLayoutParams(new LayoutParams(0, LayoutParams.WRAP_CONTENT, 1));
             view.setOnClickListener(new OnZoomableIconClickListener(i));
