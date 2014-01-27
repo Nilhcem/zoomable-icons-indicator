@@ -1,6 +1,7 @@
 # Android Zoomable Icons Indicator
 
-A page indicator, inspired by [ViewPagerIndicator](http://viewpagerindicator.com/) that imitates the tab behavior from the [LaCentrale](https://play.google.com/store/apps/details?id=fr.carboatmedia.lacentrale) application.
+A paging indicator widget compatible with the `ViewPager` from the [Android Support Library](http://developer.android.com/sdk/compatibility-library.html) and inspired by [ViewPagerIndicator](http://viewpagerindicator.com/).
+It displays a fixed row of clickable icons, zoomed when selected.
 
 ![](images/sample.gif)
 
