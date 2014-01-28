@@ -22,8 +22,8 @@ public class ZoomableIconsIndicator extends LinearLayout implements PageIndicato
     private OnPageChangeListener mListener;
 
     private LinearLayout mIconsLayout;
-    private View mIcons[];
-    private int mIndicatorPositions[];
+    private View[] mIcons;
+    private int[] mIndicatorPositions;
 
     private ImageView mSubIndicator;
     private int mSubIndicatorHalfWidth;
